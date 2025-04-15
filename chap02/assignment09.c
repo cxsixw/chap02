@@ -1,23 +1,27 @@
 /*
-ÆÄÀÏ¸í: assignment09.c
-³»¿ë: 16Áø¼ö Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ 10Áø¼ö·Î Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment09.c
+ë‚´ìš©: 16ì§„ìˆ˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ 10ì§„ìˆ˜ë¡œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-int main()
+void convertHexToDecimal()
 {
     int hexValue;
 
-    printf("16Áø¼ö Á¤¼ö? ");
+    printf("16ì§„ìˆ˜ ì •ìˆ˜? ");
     scanf("%x", &hexValue);
 
-    printf("16Áø¼ö %X´Â 10Áø¼ö·Î %dÀÔ´Ï´Ù.\n", hexValue, hexValue);
+    printf("16ì§„ìˆ˜ %XëŠ” 10ì§„ìˆ˜ë¡œ %dì…ë‹ˆë‹¤.\n", hexValue, hexValue);
+}
 
+int main()
+{
+    convertHexToDecimal();
     return 0;
 }

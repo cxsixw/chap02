@@ -1,23 +1,27 @@
 /*
-ÆÄÀÏ¸í: assignment05.c
-³»¿ë: ¸ö¹«°Ô¸¦ ÀÔ·Â¹Ş¾Æ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment05.c
+ë‚´ìš©: ëª¸ë¬´ê²Œë¥¼ ì…ë ¥ë°›ì•„ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-int main()
+void printWeight()
 {
     float weight;
 
-    printf("¸ö¹«°Ô? ");
-    scanf("%f", &weight);  // scanf »ç¿ë
+    printf("ëª¸ë¬´ê²Œ? ");
+    scanf("%f", &weight);
 
-    printf("ÀÔ·ÂÇÑ ¸ö¹«°Ô´Â %.2fKGÀÔ´Ï´Ù.\n", weight);
+    printf("ì…ë ¥í•œ ëª¸ë¬´ê²ŒëŠ” %.2fKGì…ë‹ˆë‹¤.\n", weight);
+}
 
+int main()
+{
+    printWeight();
     return 0;
 }

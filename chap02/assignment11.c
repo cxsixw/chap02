@@ -1,16 +1,16 @@
 /*
-ÆÄÀÏ¸í: assignment11.c
-³»¿ë: ÆÄÀÌ °ª(3.14159265)À» ¼Ò¼öÁ¡ ÀÌÇÏ 2, 4, 6, 8ÀÚ¸® ¹× Áö¼ö Ç¥±â·Î Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment11.c
+ë‚´ìš©: íŒŒì´ ê°’(3.14159265)ì„ ì†Œìˆ˜ì  ì´í•˜ 2, 4, 6, 8ìë¦¬ ë° ì§€ìˆ˜ í‘œê¸°ë¡œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-int main()
+void printPiFormats()
 {
     double pi = 3.14159265;
 
@@ -19,6 +19,10 @@ int main()
     printf("pi = %.6f\n", pi);
     printf("pi = %.8f\n", pi);
     printf("pi = %.6e\n", pi);
+}
 
+int main()
+{
+    printPiFormats();
     return 0;
 }

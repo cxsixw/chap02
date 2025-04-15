@@ -1,15 +1,20 @@
 /*
-ÆÄÀÏ¸í: assignment01.c
-³»¿ë: PA01. ´ÙÀ½°ú °°ÀÌ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼º
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment01.c
+ë‚´ìš©: PA01. ë‹¤ìŒê³¼ ê°™ì´ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #include <stdio.h>
 
-int main(void)
+void printExample(void)
 {
     printf("int main(void)\n{\n    return 0;\n}\n");
+}
+
+int main(void)
+{
+    printExample();
     return 0;
 }

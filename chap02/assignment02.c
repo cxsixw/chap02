@@ -1,28 +1,32 @@
 /*
-ÆÄÀÏ¸í: assignment02.c
-³»¿ë: ÇĞ»ı ¹øÈ£¿Í ÇĞÁ¡À» ÀÔ·Â¹Ş¾Æ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment02.c
+ë‚´ìš©: í•™ìƒ ë²ˆí˜¸ì™€ í•™ì ì„ ì…ë ¥ë°›ì•„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-int main()
+void printStudentGrade()
 {
     int studentNumber;
-    double grade;  // doubleÀ» »ç¿ëÇÏ¿© ´õ Á¤È®ÇÑ ½Ç¼ö Ç¥Çö
+    double grade;
 
-    printf("ÇĞ»ıÀÇ ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+    printf("í•™ìƒì˜ ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
     scanf("%d", &studentNumber);
 
-    printf("ÇĞ»ıÀÇ ÇĞÁ¡À» ÀÔ·ÂÇÏ¼¼¿ä: ");
-    scanf("%lf", &grade);  // %lf´Â doubleÇü ½Ç¼ö ÀÔ·Â
+    printf("í•™ìƒì˜ í•™ì ì„ ì…ë ¥í•˜ì„¸ìš”: ");
+    scanf("%lf", &grade);
 
-    // ÇĞÁ¡À» 6ÀÚ¸® ½Ç¼ö·Î Ãâ·Â
-    printf("%d¹ø ÇĞ»ıÀÇ ÇĞÁ¡Àº %.6fÀÔ´Ï´Ù.\n", studentNumber, grade);
+    printf("%dë²ˆ í•™ìƒì˜ í•™ì ì€ %.6fì…ë‹ˆë‹¤.\n", studentNumber, grade);
+}
 
+int main()
+{
+    printStudentGrade();
     return 0;
 }
+

@@ -1,24 +1,28 @@
 /*
-ÆÄÀÏ¸í: assignment07.c
-³»¿ë: Ä¿ÇÇ »çÀÌÁî(S, T, G)¿Í ÁÖ¹® ¼ö·®À» ÀÔ·Â¹Ş¾Æ¼­ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
-ÀÛ¼ºÀÚ: ³ªÇö¾Æ
-³¯Â¥: 2025.4.1
-¹öÀü: v1.0
+íŒŒì¼ëª…: assignment07.c
+ë‚´ìš©: ì»¤í”¼ ì‚¬ì´ì¦ˆ(S, T, G)ì™€ ì£¼ë¬¸ ìˆ˜ëŸ‰ì„ ì…ë ¥ë°›ì•„ì„œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
+ì‘ì„±ì: ë‚˜í˜„ì•„
+ë‚ ì§œ: 2025.4.1
+ë²„ì „: v1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
-int main()
+void orderCoffee()
 {
     char size;
     int quantity;
 
-    printf("Ä¿ÇÇ »çÀÌÁî(S, T, G)¿Í ÁÖ¹® ¼ö·®? ");
+    printf("ì»¤í”¼ ì‚¬ì´ì¦ˆ(S, T, G)ì™€ ì£¼ë¬¸ ìˆ˜ëŸ‰? ");
     scanf(" %c %d", &size, &quantity);
 
-    printf("%c »çÀÌÁî %dÀÜÀ» ÁÖ¹®ÇÕ´Ï´Ù.\n", size, quantity);
+    printf("%c ì‚¬ì´ì¦ˆ %dì”ì„ ì£¼ë¬¸í•©ë‹ˆë‹¤.\n", size, quantity);
+}
 
+int main()
+{
+    orderCoffee();
     return 0;
 }
